@@ -12,8 +12,8 @@ written permission of Adobe.
 /* Control the default view mode */
 const viewerConfig = {
     /* Allowed possible values are "FIT_PAGE", "FIT_WIDTH", "TWO_COLUMN", "TWO_COLUMN_FIT_PAGE" or "". */
-    defaultViewMode: "",
-};
+    embedMode: "LIGHT_BOX"
+}; 
 
 /* Wait for Adobe Acrobat Services PDF Embed API to be ready */
 document.addEventListener("adobe_dc_view_sdk.ready", function () {
