@@ -13,7 +13,6 @@ written permission of Adobe.
 const viewerConfig = {
     /* Allowed possible values are "FIT_PAGE", "FIT_WIDTH", "TWO_COLUMN", "TWO_COLUMN_FIT_PAGE" or "". */
     defaultViewMode: "FIT_WIDTH",
-    embedMode: "LIGHT_BOX"
 };
 
 /* Wait for Adobe Acrobat Services PDF Embed API to be ready */
@@ -32,7 +31,7 @@ document.addEventListener("adobe_dc_view_sdk.ready", function () {
         content: {
             /* Location of file where it is hosted */
             location: {
-                url: "https://filebin.net/x361kdvhejo3wgpa/MarchlewskiAdam-CV-042024.pdf",
+                url: "https://filebin.net/a5jawszjcg2pe94p/Adam-Marchlewski-CV-04082024.pdf",
                 /*
                 If the file URL requires some additional headers, then it can be passed as follows:-
                 headers: [
