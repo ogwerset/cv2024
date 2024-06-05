@@ -46,7 +46,7 @@ document.addEventListener("adobe_dc_view_sdk.ready", function () {
         /* Pass meta data of file */
         metaData: {
             /* file name */
-            fileName: "Adam Marchlewski - CV 04/2024"
+            fileName: "Adam Marchlewski - CV 06/2024"
         }
     }, viewerConfig);
 });
