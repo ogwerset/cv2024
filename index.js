@@ -31,7 +31,7 @@ document.addEventListener("adobe_dc_view_sdk.ready", function () {
         content: {
             /* Location of file where it is hosted */
             location: {
-                url: "https://filebin.net/9w4xaxvbz7yt7q4t/Adam-Marchlewski-CV-04082024.pdf",
+                url: "https://github.com/ogwerset/cv2024/blob/32fb1a18c04249c477ddfcba886d00135e8a0128/MarchlewskiAdam-CV-042024.pdf",
                 /*
                 If the file URL requires some additional headers, then it can be passed as follows:-
                 headers: [
